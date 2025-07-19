@@ -38,7 +38,6 @@ export function UserAvatar({
     )
   }
 
-  // If it's "Unassigned", return the original SVG
   if (fullname === 'Unassigned') {
     return (
       <img
